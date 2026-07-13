@@ -1,18 +1,15 @@
 cask "tokenscope" do
-  version "1.2.2"
-  sha256 "27efbfd7508023008553c145ff6dd16734df95a9973fb3fa894ca1bf7d07b345"
+  version "1.3.0"
+  sha256 "ff9eb2464552d611d9b9ac51cf5396466bcbf27f0e776bf9b4cda66c98760029"
 
-  url "https://github.com/SunChJ/tokenscope-remix/releases/download/v1.2.2/Tokenscope_1.2.2_universal.dmg"
+  url "https://github.com/SunChJ/tokenscope-remix/releases/download/v1.3.0/Tokenscope_1.3.0_universal.dmg"
   name "Tokenscope"
   desc "Menu-bar dashboard for local AI coding agent token usage (Claude Code, Codex)"
   homepage "https://github.com/SunChJ/tokenscope-remix"
 
   depends_on macos: ">= :catalina"
-
   app "Tokenscope.app"
 
-  # Unsigned/unnotarized build: strip the quarantine flag Homebrew
-  # adds so the app opens without the "Apple cannot verify" prompt.
   postflight do
     system_command "/usr/bin/xattr",
                    args: ["-cr", "#{appdir}/Tokenscope.app"],
