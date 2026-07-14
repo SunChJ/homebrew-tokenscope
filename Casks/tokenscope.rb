@@ -1,8 +1,8 @@
 cask "tokenscope" do
-  version "1.3.6"
-  sha256 "e1ed91518438c482fa2edf91c18656f33b1bb91b750f76dabf7f04faca9e6844"
+  version "1.3.7"
+  sha256 "9a9a27339234141264b538e6e23187003da7d8169e3d9389e5dce69b9dac5bea"
 
-  url "https://github.com/SunChJ/tokenscope-remix/releases/download/v1.3.6/Tokenscope_1.3.6_universal.dmg"
+  url "https://github.com/SunChJ/tokenscope-remix/releases/download/v1.3.7/Tokenscope_1.3.7_universal.dmg"
   name "Tokenscope"
   desc "Menu-bar dashboard for local AI coding agent token usage (Claude Code, Codex)"
   homepage "https://github.com/SunChJ/tokenscope-remix"
