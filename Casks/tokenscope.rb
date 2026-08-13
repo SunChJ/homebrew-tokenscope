@@ -1,9 +1,9 @@
 cask "tokenscope" do
-  version "1.6.1"
+  version "1.6.2"
   arch arm: "aarch64", intel: "x64"
-  sha256 arm: "410b7f4c738539f5135e9e0d12968c71154319a7b1404dc612a9049c44195213", intel: "2ebb23151cdbdb88e0752616f8cb0a0b069ce63714de941fcceb86a7a4366ca5"
+  sha256 arm: "028c2cfb167ad81102668484daa0f761bee3d9bce557ce2179910febc1425c78", intel: "a1adbe8ae20242952711b7dc829735c8993890175a59b6e52cbcb11f19c56a8e"
 
-  url "https://github.com/SunChJ/tokenscope-remix/releases/download/v1.6.1/Tokenscope_#{version}_#{arch}.dmg"
+  url "https://github.com/SunChJ/tokenscope-remix/releases/download/v1.6.2/Tokenscope_#{version}_#{arch}.dmg"
   name "Tokenscope"
   desc "Menu-bar dashboard for local AI coding agent token usage (Claude Code, Codex)"
   homepage "https://github.com/SunChJ/tokenscope-remix"
